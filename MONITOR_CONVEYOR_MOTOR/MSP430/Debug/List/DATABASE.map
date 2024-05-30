@@ -1,0 +1,799 @@
+###############################################################################
+#
+# IAR UBROF Linker V10.12.4.1422                          07/May/2023  20:21:57
+# Copyright 1987-2022 IAR Systems AB.
+#
+#    Target Cpu    =  MSP430
+#    Map file      =
+#        "C:\Users\emdat\OneDrive -
+#        ctu.edu.vn\Documents\Curriculum_University\Thiet_Ke_He_Thong_Co_Dien_Tu\BAOCAO\MSP430\DATABASE\Debug\List\DATABASE.map"
+#    Output file 1 =
+#        "C:\Users\emdat\OneDrive -
+#        ctu.edu.vn\Documents\Curriculum_University\Thiet_Ke_He_Thong_Co_Dien_Tu\BAOCAO\MSP430\DATABASE\Debug\Exe\DATABASE.d43"
+#                  =  Format: debug
+#                  =  UBROF version 11.1.1
+#                  =  Using library modules for C-SPY (-rt)
+#    Command line  =
+#        -f "C:\Users\emdat\OneDrive -
+#        ctu.edu.vn\Documents\Curriculum_University\Thiet_Ke_He_Thong_Co_Dien_Tu\BAOCAO\MSP430\DATABASE\Debug\Exe\DATABASE.d43.rsp"
+#        ("C:\Users\emdat\OneDrive -
+#        ctu.edu.vn\Documents\Curriculum_University\Thiet_Ke_He_Thong_Co_Dien_Tu\BAOCAO\MSP430\DATABASE\Debug\Obj\main.r43"
+#        --output "C:\Users\emdat\OneDrive -
+#        ctu.edu.vn\Documents\Curriculum_University\Thiet_Ke_He_Thong_Co_Dien_Tu\BAOCAO\MSP430\DATABASE\Debug\Exe\DATABASE.d43"
+#        -l "C:\Users\emdat\OneDrive -
+#        ctu.edu.vn\Documents\Curriculum_University\Thiet_Ke_He_Thong_Co_Dien_Tu\BAOCAO\MSP430\DATABASE\Debug\List\DATABASE.map"
+#        -xams "-IC:\Program Files\IAR Systems\Embedded Workbench
+#        9.1\430\LIB\\" --f "C:\Program Files\IAR Systems\Embedded Workbench
+#        9.1\430\config\linker\lnk430g2553.xcl" (-cmsp430 -QCODE_I=CODE_ID
+#        -QTLS16_I=TLS16_ID "-Z(CONST)INFO=1000-10FF"
+#        "-Z(CONST)INFOA=10C0-10FF" "-Z(CONST)INFOB=1080-10BF"
+#        "-Z(CONST)INFOC=1040-107F" "-Z(CONST)INFOD=1000-103F"
+#        "-Z(DATA)DATA16_I,DATA16_Z,DATA16_N,TLS16_I=0200-03FF"
+#        "-Z(DATA)DATA16_HEAP+_DATA16_HEAP_SIZE" "-Z(DATA)CODE_I"
+#        "-Z(DATA)CSTACK+_STACK_SIZE#"
+#        "-Z(CONST)DATA16_C,DATA16_ID,TLS16_ID,DIFUNCT,CHECKSUM=C000-FFDD"
+#        "-Z(CODE)CSTART,ISR_CODE,CODE_ID=C000-FFDD" "-P(CODE)CODE=C000-FFDD"
+#        "-Z(CONST)SIGNATURE=FFDE-FFDF" "-Z(CODE)INTVEC=FFE0-FFFF"
+#        "-Z(CODE)RESET=FFFE-FFFF") -D_STACK_SIZE=50 -rt "C:\Program Files\IAR
+#        Systems\Embedded Workbench 9.1\430\lib\dlib\dl430fn.r43"
+#        -e_PrintfLarge=_Printf -e_ScanfLarge=_Scanf -D_DATA16_HEAP_SIZE=50
+#        --entry __program_start -D_DATA20_HEAP_SIZE=50 --text_out locale)
+#
+###############################################################################
+
+
+
+
+
+
+                ****************************************
+                *                                      *
+                *            PROGRAM ENTRY             *
+                *                                      *
+                ****************************************
+
+  ADDRESS  SPACE  TYPE         MODULE
+  -------  -----  ----         ------
+   0xC00C         Relocatable  ?cstart
+
+
+
+
+                ****************************************
+                *                                      *
+                *            RUNTIME MODEL             *
+                *                                      *
+                ****************************************
+
+  ATTRIBUTE                   VALUE
+  ---------                   -----
+  __Heap_Handler              Basic
+  __SystemLibrary             DLib
+  __core                      430
+  __dlib_file_descriptor      0
+  __dlib_full_locale_support  0
+  __double_size               32
+  __pic                       no
+  __reg_r4                    free
+  __reg_r5                    free
+  __rt_version                3
+
+
+                ****************************************
+                *                                      *
+                *    AUTOMATIC SYMBOL REDIRECTIONS     *
+                *                                      *
+                ****************************************
+
+                   There are no automatic symbol redirections.
+
+
+
+                ****************************************
+                *                                      *
+                *              ENTRY LIST              *
+                *                                      *
+                ****************************************
+
+ENTRY                     SPACE  ADDRESS  KIND  TYPE  MODULE
+-----                     -----  -------  ----  ----  ------
+_A_IE2                            0x0001  Pub   Data  main
+IE2                               0x0001  Loc         main
+IE2_bit                           0x0001  Loc         main
+_A_IFG2                           0x0003  Pub   Data  main
+IFG2                              0x0003  Loc         main
+IFG2_bit                          0x0003  Loc         main
+_A_P1OUT                          0x0021  Pub   Data  main
+P1OUT                             0x0021  Loc         main
+P1OUT_bit                         0x0021  Loc         main
+_A_P1DIR                          0x0022  Pub   Data  main
+P1DIR                             0x0022  Loc         main
+P1DIR_bit                         0x0022  Loc         main
+_A_P1IFG                          0x0023  Pub   Data  main
+P1IFG                             0x0023  Loc         main
+P1IFG_bit                         0x0023  Loc         main
+_A_P1IES                          0x0024  Pub   Data  main
+P1IES                             0x0024  Loc         main
+P1IES_bit                         0x0024  Loc         main
+_A_P1IE                           0x0025  Pub   Data  main
+P1IE                              0x0025  Loc         main
+P1IE_bit                          0x0025  Loc         main
+_A_P1SEL                          0x0026  Pub   Data  main
+P1SEL                             0x0026  Loc         main
+P1SEL_bit                         0x0026  Loc         main
+_A_P1REN                          0x0027  Pub   Data  main
+P1REN                             0x0027  Loc         main
+P1REN_bit                         0x0027  Loc         main
+_A_P2OUT                          0x0029  Pub   Data  main
+P2OUT                             0x0029  Loc         main
+P2OUT_bit                         0x0029  Loc         main
+_A_P2DIR                          0x002A  Pub   Data  main
+P2DIR                             0x002A  Loc         main
+P2DIR_bit                         0x002A  Loc         main
+_A_P2IFG                          0x002B  Pub   Data  main
+P2IFG                             0x002B  Loc         main
+P2IFG_bit                         0x002B  Loc         main
+_A_P2IES                          0x002C  Pub   Data  main
+P2IES                             0x002C  Loc         main
+P2IES_bit                         0x002C  Loc         main
+_A_P2IE                           0x002D  Pub   Data  main
+P2IE                              0x002D  Loc         main
+P2IE_bit                          0x002D  Loc         main
+_A_P2REN                          0x002F  Pub   Data  main
+P2REN                             0x002F  Loc         main
+P2REN_bit                         0x002F  Loc         main
+_A_P1SEL2                         0x0041  Pub   Data  main
+P1SEL2                            0x0041  Loc         main
+P1SEL2_bit                        0x0041  Loc         main
+ADC10AE0                          0x004A  Pub   Data  main
+_DATA20_HEAP_SIZE                 0x0050  Pub         ?ABS_ENTRY_MOD [0]
+_DATA16_HEAP_SIZE                 0x0050  Pub         ?ABS_ENTRY_MOD [0]
+_STACK_SIZE                       0x0050  Pub         ?ABS_ENTRY_MOD [0]
+_A_UCA0CTL0                       0x0060  Pub   Data  main
+UCA0CTL0                          0x0060  Loc         main
+UCA0CTL0__SPI                     0x0060  Loc         main
+UCA0CTL0__SPI_bit                 0x0060  Loc         main
+UCA0CTL0_bit                      0x0060  Loc         main
+_A_UCA0CTL1                       0x0061  Pub   Data  main
+UCA0CTL1                          0x0061  Loc         main
+UCA0CTL1__SPI                     0x0061  Loc         main
+UCA0CTL1__SPI_bit                 0x0061  Loc         main
+UCA0CTL1_bit                      0x0061  Loc         main
+_A_UCA0BR0                        0x0062  Pub   Data  main
+UCA0BR0                           0x0062  Loc         main
+UCA0BR0__SPI                      0x0062  Loc         main
+_A_UCA0BR1                        0x0063  Pub   Data  main
+UCA0BR1                           0x0063  Loc         main
+UCA0BR1__SPI                      0x0063  Loc         main
+_A_UCA0MCTL                       0x0064  Pub   Data  main
+UCA0MCTL                          0x0064  Loc         main
+UCA0MCTL__SPI                     0x0064  Loc         main
+UCA0MCTL_bit                      0x0064  Loc         main
+_A_UCA0RXBUF                      0x0066  Pub   Data  main
+UCA0RXBUF                         0x0066  Loc         main
+UCA0RXBUF__SPI                    0x0066  Loc         main
+_A_UCA0TXBUF                      0x0067  Pub   Data  main
+UCA0TXBUF                         0x0067  Loc         main
+UCA0TXBUF__SPI                    0x0067  Loc         main
+_A_WDTCTL                         0x0120  Pub   Data  main
+WDTCTL                            0x0120  Loc         main
+WDTCTL_bit                        0x0120  Loc         main
+_A_TA0CTL                         0x0160  Pub   Data  main
+TA0CTL                            0x0160  Loc         main
+TA0CTL_bit                        0x0160  Loc         main
+_A_TA0CCTL1                       0x0164  Pub   Data  main
+TA0CCTL1                          0x0164  Loc         main
+TA0CCTL1_bit                      0x0164  Loc         main
+TA0CCR0                           0x0172  Pub   Data  main
+TA0CCR1                           0x0174  Pub   Data  main
+_A_ADC10CTL0                      0x01B0  Pub   Data  main
+ADC10CTL0                         0x01B0  Loc         main
+ADC10CTL0_bit                     0x01B0  Loc         main
+_A_ADC10CTL1                      0x01B2  Pub   Data  main
+ADC10CTL1                         0x01B2  Loc         main
+ADC10CTL1_bit                     0x01B2  Loc         main
+ADC10MEM                          0x01B4  Pub   Data  main
+value_variableresistor            0x0200  Pub   Data  main
+timer                             0x0202  Pub   Data  main
+counter                           0x0204  Pub   Data  main
+speed                             0x0206  Pub   Data  main
+buttonPressed                     0x0208  Pub   Data  main
+__program_start                   0xC00C  Pub         ?cstart [1]
+?cstart_begin                     0xC00C  Pub         ?cstart [1]
+?cstart_init_zero                 0xC010  Pub         ?cstart [1]
+?cstart_call_main                 0xC01C  Pub         ?cstart [1]
+?cstart_end                       0xC024  Pub         ?cstart [1]
+_Cast32uto32f                     0xC024  Pub         ?Cast32f32i [1]
+?FLT_Extract                      0xC0A2  Pub         ?FLT_Extract [1]
+ReadADC10                         0xC0EE  Pub   Code  main
+Port2_ISR                         0xC134  Pub   Code  main
+_Cast32fto32s                     0xC16C  Pub         _Cast32fto32s [1]
+USCI0RX_ISR                       0xC19E  Pub   Code  main
+init_button                       0xC1D0  Pub   Code  main
+main                              0xC1F8  Pub   Code  main
+init_uart                         0xC220  Pub   Code  main
+init_pwm                          0xC246  Pub   Code  main
+read_variableresistor             0xC266  Pub   Code  main
+Timer0                            0xC284  Pub   Code  main
+init_encoder                      0xC2A0  Pub   Code  main
+uart_send_str                     0xC2B4  Pub   Code  main
+__exit                            0xC2C8  Pub   Code  ?__exit [1]
+__data16_memzero                  0xC2DA  Pub   Code  ?memzero [1]
+init_control                      0xC2EA  Pub   Code  main
+uart_putc                         0xC2F8  Pub   Code  main
+?ShiftLeft16                      0xC304  Pub         ?ShiftLeft16 [1]
+PORT1                             0xC310  Pub   Code  main
+exit                              0xC31A  Pub   Code  ?exit [1]
+_exit                             0xC31E  Pub   Code  ?_exit [1]
+__DebugBreak                      0xC322  Pub   Code  ?__dbg_break [1]
+PORT1::??INTVEC 4                 0xFFE4  Pub         main
+Port2_ISR::??INTVEC 6             0xFFE6  Pub         main
+USCI0RX_ISR::??INTVEC 14          0xFFEE  Pub         main
+Timer0::??INTVEC 26               0xFFFA  Pub         main
+?reset_vector                     0xFFFE  Pub         ?reset_vector [1]
+
+[0] = Command line (linker generated)
+[1] = C:\Program Files\IAR Systems\Embedded Workbench 9.1\430\lib\dlib\dl430fn.r43
+
+
+                ****************************************
+                *                                      *
+                *              MODULE MAP              *
+                *                                      *
+                ****************************************
+
+Linker generated:
+  Module: ?FILLER_BYTES
+**************************************************************
+Linker generated:
+  Module: ?ABS_ENTRY_MOD
+
+      Absolute module symbols:
+        _DATA20_HEAP_SIZE  0x0050  Pub
+        _DATA16_HEAP_SIZE  0x0050  Pub
+        _STACK_SIZE        0x0050  Pub
+**************************************************************
+File: C:\Users\emdat\OneDrive - ctu.edu.vn\Documents\Curriculum_University\Thiet_Ke_He_Thong_Co_Dien_Tu\BAOCAO\MSP430\DATABASE\Debug\Obj\main.r43
+  Module: main
+       Segment part 1, DATA16_AN [root]
+       Address:  0x0001 Size: 0x1 Align: 1(0)
+      _A_IE2               0x0001  Pub
+      IE2                  0x0001  Loc
+      IE2_bit              0x0001  Loc
+    --------------------------------------------------
+       Segment part 2, DATA16_AN [root]
+       Address:  0x0003 Size: 0x1 Align: 1(0)
+       Ref by:   uart_putc
+                 USCI0RX_ISR
+      _A_IFG2              0x0003  Pub
+      IFG2                 0x0003  Loc
+      IFG2_bit             0x0003  Loc
+    --------------------------------------------------
+       Segment part 3, DATA16_AN [root]
+       Address:  0x004A Size: 0x1 Align: 1(0)
+       Ref by:   ReadADC10
+      ADC10AE0             0x004A  Pub
+    --------------------------------------------------
+       Segment part 4, DATA16_AN [root]
+       Address:  0x01B0 Size: 0x2 Align: 1(0)
+       Ref by:   ReadADC10
+      _A_ADC10CTL0         0x01B0  Pub
+      ADC10CTL0            0x01B0  Loc
+      ADC10CTL0_bit        0x01B0  Loc
+    --------------------------------------------------
+       Segment part 5, DATA16_AN [root]
+       Address:  0x01B2 Size: 0x2 Align: 1(0)
+       Ref by:   ReadADC10
+      _A_ADC10CTL1         0x01B2  Pub
+      ADC10CTL1            0x01B2  Loc
+      ADC10CTL1_bit        0x01B2  Loc
+    --------------------------------------------------
+       Segment part 6, DATA16_AN [root]
+       Address:  0x01B4 Size: 0x2 Align: 1(0)
+       Ref by:   ReadADC10
+      ADC10MEM             0x01B4  Pub
+    --------------------------------------------------
+       Segment part 7, DATA16_AN [root]
+       Address:  0x0021 Size: 0x1 Align: 1(0)
+       Ref by:   USCI0RX_ISR
+      _A_P1OUT             0x0021  Pub
+      P1OUT                0x0021  Loc
+      P1OUT_bit            0x0021  Loc
+    --------------------------------------------------
+       Segment part 8, DATA16_AN [root]
+       Address:  0x0022 Size: 0x1 Align: 1(0)
+       Ref by:   init_pwm
+      _A_P1DIR             0x0022  Pub
+      P1DIR                0x0022  Loc
+      P1DIR_bit            0x0022  Loc
+    --------------------------------------------------
+       Segment part 9, DATA16_AN [root]
+       Address:  0x0023 Size: 0x1 Align: 1(0)
+       Ref by:   PORT1
+                 init_encoder
+      _A_P1IFG             0x0023  Pub
+      P1IFG                0x0023  Loc
+      P1IFG_bit            0x0023  Loc
+    --------------------------------------------------
+       Segment part 10, DATA16_AN [root]
+       Address:  0x0024 Size: 0x1 Align: 1(0)
+       Ref by:   init_encoder
+      _A_P1IES             0x0024  Pub
+      P1IES                0x0024  Loc
+      P1IES_bit            0x0024  Loc
+    --------------------------------------------------
+       Segment part 11, DATA16_AN [root]
+       Address:  0x0025 Size: 0x1 Align: 1(0)
+       Ref by:   init_encoder
+      _A_P1IE              0x0025  Pub
+      P1IE                 0x0025  Loc
+      P1IE_bit             0x0025  Loc
+    --------------------------------------------------
+       Segment part 12, DATA16_AN [root]
+       Address:  0x0026 Size: 0x1 Align: 1(0)
+       Ref by:   init_pwm
+                 init_uart
+      _A_P1SEL             0x0026  Pub
+      P1SEL                0x0026  Loc
+      P1SEL_bit            0x0026  Loc
+    --------------------------------------------------
+       Segment part 13, DATA16_AN [root]
+       Address:  0x0041 Size: 0x1 Align: 1(0)
+       Ref by:   init_uart
+      _A_P1SEL2            0x0041  Pub
+      P1SEL2               0x0041  Loc
+      P1SEL2_bit           0x0041  Loc
+    --------------------------------------------------
+       Segment part 14, DATA16_AN [root]
+       Address:  0x0027 Size: 0x1 Align: 1(0)
+       Ref by:   init_encoder
+      _A_P1REN             0x0027  Pub
+      P1REN                0x0027  Loc
+      P1REN_bit            0x0027  Loc
+    --------------------------------------------------
+       Segment part 15, DATA16_AN [root]
+       Address:  0x0029 Size: 0x1 Align: 1(0)
+       Ref by:   init_control
+                 init_button
+      _A_P2OUT             0x0029  Pub
+      P2OUT                0x0029  Loc
+      P2OUT_bit            0x0029  Loc
+    --------------------------------------------------
+       Segment part 16, DATA16_AN [root]
+       Address:  0x002A Size: 0x1 Align: 1(0)
+       Ref by:   init_control
+                 init_button
+      _A_P2DIR             0x002A  Pub
+      P2DIR                0x002A  Loc
+      P2DIR_bit            0x002A  Loc
+    --------------------------------------------------
+       Segment part 17, DATA16_AN [root]
+       Address:  0x002B Size: 0x1 Align: 1(0)
+       Ref by:   Port2_ISR
+                 init_button
+      _A_P2IFG             0x002B  Pub
+      P2IFG                0x002B  Loc
+      P2IFG_bit            0x002B  Loc
+    --------------------------------------------------
+       Segment part 18, DATA16_AN [root]
+       Address:  0x002C Size: 0x1 Align: 1(0)
+       Ref by:   init_button
+      _A_P2IES             0x002C  Pub
+      P2IES                0x002C  Loc
+      P2IES_bit            0x002C  Loc
+    --------------------------------------------------
+       Segment part 19, DATA16_AN [root]
+       Address:  0x002D Size: 0x1 Align: 1(0)
+       Ref by:   init_button
+      _A_P2IE              0x002D  Pub
+      P2IE                 0x002D  Loc
+      P2IE_bit             0x002D  Loc
+    --------------------------------------------------
+       Segment part 20, DATA16_AN [root]
+       Address:  0x002F Size: 0x1 Align: 1(0)
+       Ref by:   init_button
+      _A_P2REN             0x002F  Pub
+      P2REN                0x002F  Loc
+      P2REN_bit            0x002F  Loc
+    --------------------------------------------------
+       Segment part 21, DATA16_AN [root]
+       Address:  0x0160 Size: 0x2 Align: 1(0)
+       Ref by:   init_pwm
+      _A_TA0CTL            0x0160  Pub
+      TA0CTL               0x0160  Loc
+      TA0CTL_bit           0x0160  Loc
+    --------------------------------------------------
+       Segment part 22, DATA16_AN [root]
+       Address:  0x0164 Size: 0x2 Align: 1(0)
+       Ref by:   init_pwm
+      _A_TA0CCTL1          0x0164  Pub
+      TA0CCTL1             0x0164  Loc
+      TA0CCTL1_bit         0x0164  Loc
+    --------------------------------------------------
+       Segment part 23, DATA16_AN [root]
+       Address:  0x0172 Size: 0x2 Align: 1(0)
+       Ref by:   init_pwm
+      TA0CCR0              0x0172  Pub
+    --------------------------------------------------
+       Segment part 24, DATA16_AN [root]
+       Address:  0x0174 Size: 0x2 Align: 1(0)
+       Ref by:   read_variableresistor
+      TA0CCR1              0x0174  Pub
+    --------------------------------------------------
+       Segment part 25, DATA16_AN [root]
+       Address:  0x0060 Size: 0x1 Align: 1(0)
+       Ref by:   init_uart
+      _A_UCA0CTL0          0x0060  Pub
+      UCA0CTL0             0x0060  Loc
+      UCA0CTL0__SPI        0x0060  Loc
+      UCA0CTL0__SPI_bit    0x0060  Loc
+      UCA0CTL0_bit         0x0060  Loc
+    --------------------------------------------------
+       Segment part 26, DATA16_AN [root]
+       Address:  0x0061 Size: 0x1 Align: 1(0)
+       Ref by:   init_uart
+      _A_UCA0CTL1          0x0061  Pub
+      UCA0CTL1             0x0061  Loc
+      UCA0CTL1__SPI        0x0061  Loc
+      UCA0CTL1__SPI_bit    0x0061  Loc
+      UCA0CTL1_bit         0x0061  Loc
+    --------------------------------------------------
+       Segment part 27, DATA16_AN [root]
+       Address:  0x0062 Size: 0x1 Align: 1(0)
+       Ref by:   init_uart
+      _A_UCA0BR0           0x0062  Pub
+      UCA0BR0              0x0062  Loc
+      UCA0BR0__SPI         0x0062  Loc
+    --------------------------------------------------
+       Segment part 28, DATA16_AN [root]
+       Address:  0x0063 Size: 0x1 Align: 1(0)
+       Ref by:   init_uart
+      _A_UCA0BR1           0x0063  Pub
+      UCA0BR1              0x0063  Loc
+      UCA0BR1__SPI         0x0063  Loc
+    --------------------------------------------------
+       Segment part 29, DATA16_AN [root]
+       Address:  0x0064 Size: 0x1 Align: 1(0)
+      _A_UCA0MCTL          0x0064  Pub
+      UCA0MCTL             0x0064  Loc
+      UCA0MCTL__SPI        0x0064  Loc
+      UCA0MCTL_bit         0x0064  Loc
+    --------------------------------------------------
+       Segment part 30, DATA16_AN [root]
+       Address:  0x0066 Size: 0x1 Align: 1(0)
+       Ref by:   USCI0RX_ISR
+      _A_UCA0RXBUF         0x0066  Pub
+      UCA0RXBUF            0x0066  Loc
+      UCA0RXBUF__SPI       0x0066  Loc
+    --------------------------------------------------
+       Segment part 31, DATA16_AN [root]
+       Address:  0x0067 Size: 0x1 Align: 1(0)
+       Ref by:   uart_putc
+                 USCI0RX_ISR
+      _A_UCA0TXBUF         0x0067  Pub
+      UCA0TXBUF            0x0067  Loc
+      UCA0TXBUF__SPI       0x0067  Loc
+    --------------------------------------------------
+       Segment part 32, DATA16_AN [root]
+       Address:  0x0120 Size: 0x2 Align: 1(0)
+       Ref by:   main
+      _A_WDTCTL            0x0120  Pub
+      WDTCTL               0x0120  Loc
+      WDTCTL_bit           0x0120  Loc
+    --------------------------------------------------
+       Segment part 72, <CODE> 1
+                      (was CODE)
+       Address:  0xC19E Size: 0x32 Align: 2(1)
+       Ref by:   USCI0RX_ISR::??INTVEC 14
+      USCI0RX_ISR          0xC19E  Pub
+    --------------------------------------------------
+       Segment part 47, DATA16_Z
+       Address:  0x0200 Size: 0x2 Align: 2(1)
+       Ref by:   read_variableresistor
+      value_variableresistor  0x0200  Pub
+    --------------------------------------------------
+       Segment part 50, DATA16_Z
+       Address:  0x0202 Size: 0x2 Align: 2(1)
+       Ref by:   Timer0
+      timer                0x0202  Pub
+    --------------------------------------------------
+       Segment part 51, DATA16_Z
+       Address:  0x0204 Size: 0x2 Align: 2(1)
+       Ref by:   Timer0
+                 PORT1
+      counter              0x0204  Pub
+    --------------------------------------------------
+       Segment part 52, DATA16_Z
+       Address:  0x0206 Size: 0x2 Align: 2(1)
+       Ref by:   Timer0
+      speed                0x0206  Pub
+    --------------------------------------------------
+       Segment part 62, DATA16_Z
+       Address:  0x0208 Size: 0x1 Align: 1(0)
+       Ref by:   Port2_ISR
+      buttonPressed        0x0208  Pub
+    --------------------------------------------------
+       Segment part 73, <CODE> 1
+                      (was CODE)
+       Address:  0xC220 Size: 0x26 Align: 2(1)
+       Ref by:   main
+      init_uart            0xC220  Pub
+    --------------------------------------------------
+       Segment part 74, <CODE> 1
+                      (was CODE)
+       Address:  0xC2A0 Size: 0x14 Align: 2(1)
+       Ref by:   main
+      init_encoder         0xC2A0  Pub
+    --------------------------------------------------
+       Segment part 75, <CODE> 1
+                      (was CODE)
+       Address:  0xC246 Size: 0x20 Align: 2(1)
+       Ref by:   main
+      init_pwm             0xC246  Pub
+    --------------------------------------------------
+       Segment part 76, <CODE> 1
+                      (was CODE)
+       Address:  0xC1D0 Size: 0x28 Align: 2(1)
+       Ref by:   main
+      init_button          0xC1D0  Pub
+    --------------------------------------------------
+       Segment part 77, <CODE> 1
+                      (was CODE)
+       Address:  0xC2EA Size: 0xE Align: 2(1)
+       Ref by:   main
+      init_control         0xC2EA  Pub
+    --------------------------------------------------
+       Segment part 78, <CODE> 1
+                      (was CODE)
+       Address:  0xC0EE Size: 0x46 Align: 2(1)
+       Ref by:   read_variableresistor
+      ReadADC10            0xC0EE  Pub
+    --------------------------------------------------
+       Segment part 80, <CODE> 1
+                      (was CODE)
+       Address:  0xC266 Size: 0x1E Align: 2(1)
+       Ref by:   main
+      read_variableresistor  0xC266  Pub
+    --------------------------------------------------
+       Segment part 83, <CODE> 1
+                      (was CODE)
+       Address:  0xC2F8 Size: 0xC Align: 2(1)
+       Ref by:   uart_send_str
+      uart_putc            0xC2F8  Pub
+    --------------------------------------------------
+       Segment part 85, <CODE> 1
+                      (was CODE)
+       Address:  0xC2B4 Size: 0x14 Align: 2(1)
+       Ref by:   main
+      uart_send_str        0xC2B4  Pub
+    --------------------------------------------------
+       Segment part 89, <CODE> 1
+                      (was CODE)
+       Address:  0xC1F8 Size: 0x28 Align: 2(1)
+      main                 0xC1F8  Pub  Ref by:   Segment part 19 (?cstart)
+    --------------------------------------------------
+       Segment part 90, <CODE> 1
+                      (was CODE)
+       Address:  0xC310 Size: 0xA Align: 2(1)
+       Ref by:   PORT1::??INTVEC 4
+      PORT1                0xC310  Pub
+    --------------------------------------------------
+       Segment part 91, <CODE> 1
+                      (was CODE)
+       Address:  0xC284 Size: 0x1C Align: 2(1)
+       Ref by:   Timer0::??INTVEC 26
+      Timer0               0xC284  Pub
+    --------------------------------------------------
+       Segment part 92, <CODE> 1
+                      (was CODE)
+       Address:  0xC134 Size: 0x38 Align: 2(1)
+       Ref by:   Port2_ISR::??INTVEC 6
+      Port2_ISR            0xC134  Pub
+    --------------------------------------------------
+       Segment part 33, INTVEC [root]
+       Address:  0xFFE0 Size: 0x6 Align: 2(1)
+      PORT1::??INTVEC 4    0xFFE4  Pub
+    --------------------------------------------------
+       Segment part 34, INTVEC [root]
+       Address:  0xFFE0 Size: 0x8 Align: 2(1)
+      Port2_ISR::??INTVEC 6  0xFFE6  Pub
+    --------------------------------------------------
+       Segment part 35, INTVEC [root]
+       Address:  0xFFE0 Size: 0x10 Align: 2(1)
+      USCI0RX_ISR::??INTVEC 14  0xFFEE  Pub
+    --------------------------------------------------
+       Segment part 36, INTVEC [root]
+       Address:  0xFFE0 Size: 0x1C Align: 2(1)
+      Timer0::??INTVEC 26  0xFFFA  Pub
+    --------------------------------------------------
+       Segment part 42, DATA16_C
+       Address:  0xC000 Size: 0xC Align: 1(0)
+       Ref by:   main
+**************************************************************
+File: C:\Program Files\IAR Systems\Embedded Workbench 9.1\430\lib\dlib\dl430fn.r43
+  Module: ?abort
+  ============================================================
+  Module: ?__dbg_break
+       Segment part 2, <CODE> 1
+                      (was CODE)
+       Address:  0xC322 Size: 0x2 Align: 2(1)
+      __DebugBreak         0xC322  Pub  Ref by:   __exit (?__exit)
+  ============================================================
+  Module: ?__dwrite
+  ============================================================
+  Module: ?__exit
+       Segment part 2, <CODE> 1
+                      (was CODE)
+       Address:  0xC2C8 Size: 0x12 Align: 2(1)
+      __exit               0xC2C8  Pub  Ref by:   Segment part 6 (?_exit)
+                                                  _exit (?_exit)
+  ============================================================
+  Module: ?__write
+  ============================================================
+  Module: ?_exit
+       Segment part 0, <CODE> 1
+                      (was CODE)
+       Address:  0xC31E Size: 0x0 Align: 2(1)
+      _exit                0xC31E  Pub  Ref by:   exit (?exit)
+    --------------------------------------------------
+       Segment part 6, <CODE> 1
+                      (was CODE)
+       Address:  0xC31E Size: 0x4 Align: 2(1)
+       Ref by:   _exit
+  ============================================================
+  Module: ?cppinit
+  ============================================================
+  Module: ?cstart
+       Segment part 1, CSTACK
+       Address:  0x03B0 Size: 0x0 Align: 2(1)
+    --------------------------------------------------
+       Segment part 2, DATA16_Z
+       Address:  0x0208 Size: 0x0 Align: 2(1)
+    --------------------------------------------------
+       Segment part 9, CSTART
+       Address:  0xC00C Size: 0x4 Align: 2(1)
+      __program_start      0xC00C  Pub  Ref by:   ?reset_vector (?reset_vector)
+                                                  Absolute parts (?ABS_ENTRY_MOD)
+      ?cstart_begin        0xC00C  Pub
+    --------------------------------------------------
+       Segment part 14, CSTART
+       Address:  0xC010 Size: 0xC Align: 2(1)
+      ?cstart_init_zero    0xC010  Pub  Ref by:   buttonPressed (main)
+                                                  speed (main)
+                                                  counter (main)
+                                                  timer (main)
+                                                  value_variableresistor (main)
+    --------------------------------------------------
+       Segment part 19, CSTART
+       Address:  0xC01C Size: 0x8 Align: 2(1)
+       Ref by:   Segment part 9
+      ?cstart_call_main    0xC01C  Pub
+      ?cstart_end          0xC024  Pub
+  ============================================================
+  Module: lowinit
+  ============================================================
+  Module: ?reset_vector
+       Segment part 0, RESET
+       Address:  0xFFFE Size: 0x2 Align: 2(1)
+      ?reset_vector        0xFFFE  Pub  Ref by:   Segment part 9 (?cstart)
+  ============================================================
+  Module: ?Epilogue
+  ============================================================
+  Module: ?exit
+       Segment part 2, <CODE> 1
+                      (was CODE)
+       Address:  0xC31A Size: 0x4 Align: 2(1)
+      exit                 0xC31A  Pub  Ref by:   Segment part 19 (?cstart)
+  ============================================================
+  Module: ?FrwpInit
+  ============================================================
+  Module: ?Cast32f32i
+       Segment part 1, <CODE> 1
+                      (was CODE)
+       Address:  0xC024 Size: 0x7E Align: 2(1)
+      _Cast32uto32f        0xC024  Pub  Ref by:   read_variableresistor (main)
+  ============================================================
+  Module: _Cast32fto32u
+  ============================================================
+  Module: _Cast32fto32s
+       Segment part 0, <CODE> 1
+                      (was CODE)
+       Address:  0xC16C Size: 0x32 Align: 2(1)
+      _Cast32fto32s        0xC16C  Pub  Ref by:   read_variableresistor (main)
+  ============================================================
+  Module: ?FLT_Extract
+       Segment part 0, <CODE> 1
+                      (was CODE)
+       Address:  0xC0A2 Size: 0x4C Align: 2(1)
+      ?FLT_Extract         0xC0A2  Pub  Ref by:   _Cast32fto32s (_Cast32fto32s)
+  ============================================================
+  Module: ?FLT_GE
+  ============================================================
+  Module: ?FLT_LT
+  ============================================================
+  Module: _Mul32f
+  ============================================================
+  Module: _Div32f
+  ============================================================
+  Module: _Add32f
+  ============================================================
+  Module: ?malloc
+  ============================================================
+  Module: ?Mul32
+  ============================================================
+  Module: ?DivMod32u
+  ============================================================
+  Module: ?DivMod32s
+  ============================================================
+  Module: ?ShiftLeft16
+       Segment part 0, <CODE> 1
+                      (was CODE)
+       Address:  0xC304 Size: 0xC Align: 2(1)
+      ?ShiftLeft16         0xC304  Pub  Ref by:   ReadADC10 (main)
+  ============================================================
+  Module: ?ShiftRight816s
+  ============================================================
+  Module: ?memcpy
+  ============================================================
+  Module: ?memmove
+  ============================================================
+  Module: ?memzero
+       Segment part 2, <CODE> 1
+                      (was CODE)
+       Address:  0xC2DA Size: 0x10 Align: 2(1)
+      __data16_memzero     0xC2DA  Pub  Ref by:   ?cstart_init_zero (?cstart)
+  ============================================================
+  Module: ?MpuInit
+  ============================================================
+  Module: ?setjmp
+  ============================================================
+  Module: ?longjmp
+  ============================================================
+  Module: ?SwitchKey8
+  ============================================================
+  Module: ?xcloseall
+  ============================================================
+  Module: ?xgetmemchunk
+  ============================================================
+  Module: ?xxmemxfree
+  ============================================================
+  Module: ?xxmemxmalloc
+
+
+                ****************************************
+                *                                      *
+                *      SEGMENTS IN ADDRESS ORDER       *
+                *                                      *
+                ****************************************
+
+SEGMENT    SPACE    START/END ADDRESS     SIZE  TYPE  ALIGN
+-------    -----  ---------------------   ----  ----  -----
+DATA16_I                 0x0200                  dse   1(0)
+DATA16_Z             0x0200 - 0x0208       0x9   rel   2(1)
+CSTACK               0x03B0 - 0x03FF      0x50   rel   2(1)
+DATA16_C             0xC000 - 0xC00B       0xC   rel   1(0)
+CSTART               0xC00C - 0xC023      0x18   rel   2(1)
+<CODE> 1             0xC024 - 0xC323     0x300   rel   2(1)
+INTVEC               0xFFE0 - 0xFFFB      0x1C   com   2(1)
+RESET                0xFFFE - 0xFFFF       0x2   rel   2(1)
+DATA16_AN            0x0001 - 0x0001       0x1   abs   1(0)
+                     0x0003 - 0x0003       0x1
+                     0x0021 - 0x0027       0x7
+                     0x0029 - 0x002D       0x5
+                     0x002F - 0x002F       0x1
+                     0x0041 - 0x0041       0x1
+                     0x004A - 0x004A       0x1
+                     0x0060 - 0x0064       0x5
+                     0x0066 - 0x0067       0x2
+                     0x0120 - 0x0121       0x2
+                     0x0160 - 0x0161       0x2
+                     0x0164 - 0x0165       0x2
+                     0x0172 - 0x0175       0x4
+                     0x01B0 - 0x01B5       0x6
+
+ 822 bytes of CODE  memory
+  89 bytes of DATA  memory (+ 40 absolute )
+  12 bytes of CONST memory
+
+Errors: none
+Warnings: none
